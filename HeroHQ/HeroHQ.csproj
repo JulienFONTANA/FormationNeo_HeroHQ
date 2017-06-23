@@ -76,7 +76,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BDD_Hero_script.sql" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -144,6 +143,7 @@
     <Content Include="images\Zarya_portrait.png" />
     <Content Include="images\Zenyatta_portrait.png" />
     <Content Include="search.html" />
+    <Content Include="Guide.txt" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

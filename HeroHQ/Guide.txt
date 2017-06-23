@@ -1,0 +1,52 @@
+﻿Bonjour recrues !
+
+La mission pour laquelle vous avez été choisi va bientôt commencer, mais avant cela, vous allez passer quelques heures dans la salle d'entrainement pour vous préparer !
+
+Ce site web, c'est ce que nous avons réussi à récupérer après l'attaque sur notre système informatique. Vous pourrez voir qu'il ne fonctionne plus comme il faut.
+
+Vous avez l'autorisation de le modifier à votre guise pour vous entraîner, voir les modifications que cela provoque, ou tout simplement pour vous amuser.
+
+Changez l'ordre d'affichage, changez les images, testez et expérimentez à votre guise. Les paragraphes qui suivent vont vous expliquer les bases du fonctionnement des langages HTML et CSS.
+
+
+
+*** HTML ***
+
+Le langage HTML (HyperText Markup Language) est un langage conçu pour représenter les pages web. Il fonctionne à l'aide de balises, permettant de structurer l'affichage des différentes pages.
+
+Ces fameuses balises ressemblent à ça : <balise></balise>, certaines balises qui représentent un élément particulier (une image par exemple) peuvent ressembler à ça : <balise />.
+
+Une balise peut contenir un autre élément (du texte ou d'autres balises) : <balise>Titre</balise> / <balise1><balise2></balise2></balise1> et peut prendre des paramètres : <balise id="Titre">Titre</balise>.
+
+Une page web en HTML doit avoir une structure de base précise : 
+<html> //Indique que ce document est un document HTML
+	<head></head> //Fournit au navigateur Web tous les paramètres et informations dont il a besoin (vous n'aurez pas besoin de modifier les <head></head> des fichiers)
+	<body></body> //Contient tout le HTML qui sera affiché à l'écran, c'est dedans que vous modifierez l'affichage
+</html>
+
+L'intérieur de la balise <body> a généralement la structure suivante :
+<body>
+	<header></header> //Représente la partie supérieure de la page web, ça peut être le titre, une barre de recherche, un menu déroulant, ...
+	<main></main> //Représente la coeur de la page, là où toutes les informations importantes pour l'utilisateur se trouvent
+	<footer></footer> //Représente la partie inférieure de la page web, ça peut être des liens partenaires, des informations légales, des copyrights, ...
+</body>
+
+Voici une liste non exhaustives des balises les plus utilisées en HTML, pour plus d'informations sur ces balises, leurs paramètres, leur utilisation ou d'autres balises, Google est votre ami.
+- <div> : une balise qui permet d'appliquer du CSS à un bloc d'HTML (expliqué au paragraphe suivant)
+- <a> : une balise qui permet de créer un lien vers une autre page HTML via une URL passée avec le paramètre href (ex : <a href="www.google.fr"></a>)
+- <img> : une balise qui permet d'afficher une image dans la page via une URL passée avec le paramètre src (ex : <img src="images/favicon.png" />)
+- <form> : une balise qui permet de créer un formulaire de données (sera vu plus en détail lors de la prochaine étape)
+- <input> : permet de rajouter un élément à un formulaire (sera vu plus en détails lors de la prochaine étape)
+- <p> : une balise qui définit un paragraphe de texte
+
+
+
+*** CSS ***
+
+Le langage CSS (Cascading Style Sheets) est un langage conçu pour donner du style à une page HTML. Il permet de modifier la façon dont s'affiche une balise.
+
+En général, les balises <div> sont utilisées pour donner un style à un bloc HTML, mais n'importe quelle balise peut recevoir un nouveau style en lui appliquant une classe (ex: <p class="warning">ERROR</p>).
+
+Les fichiers CSS se trouvent dans le dossier css, il y a tellement de paramètres modifiables que cela serait trop long pour vous les lister. Vous n'aurez pas à les modifier pour la prochaine étape.
+
+Si vous voulez vous amuser à modifier le CSS mais que vous ne savez pas comment faire, Google est votre ami.
